@@ -51,7 +51,7 @@ module NumbersAndWords
 
       def fractional_options
         length = precision || fractional_part.length
-        { fractional: { length: } }
+        { fractional: { length: length } }
       end
 
       def fractional_part_is_nil?

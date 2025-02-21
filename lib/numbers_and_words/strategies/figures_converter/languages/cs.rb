@@ -36,7 +36,7 @@ module NumbersAndWords
           private
 
           def internal_options
-            { gender:, prefix: maybe_ordinal }
+            { gender: gender, prefix: maybe_ordinal }
           end
 
           def maybe_remove_zero

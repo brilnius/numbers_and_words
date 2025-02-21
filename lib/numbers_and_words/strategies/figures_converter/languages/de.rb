@@ -21,7 +21,7 @@ module NumbersAndWords
           end
 
           def ones
-            super(postfix:)
+            super(postfix: postfix)
           end
 
           def postfix

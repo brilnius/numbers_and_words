@@ -222,8 +222,8 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/kslazarev/numbers_and_words".freeze
   s.licenses = ["MIT".freeze]
-  s.required_ruby_version = Gem::Requirement.new(">= 3.1.0".freeze)
-  s.rubygems_version = "3.5.19".freeze
+  s.required_ruby_version = Gem::Requirement.new(">= 2.7.0".freeze)
+  s.rubygems_version = "3.4.8".freeze
   s.summary = "Spell out numbers in several languages".freeze
 
   s.specification_version = 4

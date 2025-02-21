@@ -28,13 +28,13 @@ module NumbersAndWords
         if number_tens == 8
           [tens(number_tens, alone: false), ones(number_ones, options)].join(separator)
         else
-          super(numbers, options.merge(separator:))
+          super(numbers, options.merge(separator: separator))
         end
       end
 
       def hundreds(number, options = {})
         count = options[:pluralize] ? number : 1
-        hundreds = t(:hundreds, count:)
+        hundreds = t(:hundreds, count: count)
 
         return hundreds if number == 1
 
